@@ -1,0 +1,8 @@
+Tue Feb 13 19:28:13 UTC 2018
+
+This is a simple dropfile to remind which version was installed.
+
+Please do not rename it or use it to do anything other than to read
+what you are now reading.  Any .mpy files found here, of course, do
+belong on your target board (generally, stored in its /lib directory).
+
