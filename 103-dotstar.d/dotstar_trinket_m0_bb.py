@@ -1,6 +1,3 @@
-# Trinket IO demo
-# Welcome to CircuitPython 2.0.0 :)
-
 import board
 import adafruit_dotstar as dotstar
 import time
@@ -29,17 +26,8 @@ def wheel(pos):
 
 ######################### MAIN LOOP ##############################
 
-
-# for when an autorun program is required:
-# i = 0
-# while True:
-#     dot[0] = wheel(i & 255)
-#     i = (i+1) % 256  # run from 0 to 255
-#     time.sleep(0.11)
-
-# for when an interactive use is required:
 def startup():
-    print("startup - dotstar wheel")  
+    print("c71 dotstar wheel")  
     i = 0
     while True:
         dot[0] = wheel(i & 255)
